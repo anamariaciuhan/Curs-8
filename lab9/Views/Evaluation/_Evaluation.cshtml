@@ -1,0 +1,10 @@
+﻿
+<div class="evaluation">
+    <h4>@Model.name</h4>
+    <span>@Model.rating</span>
+    <p>@Model.city, @Model.country</p>
+    <p>@Model.id</p>
+    <span>
+        @Html.ActionLink("Edit", "edit", new { id = Model.id })
+    </span>
+</div>
